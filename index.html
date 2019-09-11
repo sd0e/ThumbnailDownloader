@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thumbnail Downloader</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link rel="icon" href="https://cdn.pixabay.com/photo/2016/12/18/13/45/download-1915753_960_720.png">
+        <link rel="shortcut-icon" href="https://cdn.pixabay.com/photo/2016/12/18/13/45/download-1915753_960_720.png">
+        <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>YouTube Thumbnail Downloader</h1>
+        <p>Enter any YouTube URL below and then click on the appropriate resolution to see the image.</p>
+        <input type="text" id="urlInput" class="urlInput"><br><br>
+        <p>16:9 Resolution:</p>
+        <button onclick="getMQURL();" id="max" class="choicebuttons">M</button>
+        <button onclick="getMaxURL();" id="max" class="choicebuttons">L</button>
+        <p>4:3 Resolution:</p>
+        <button onclick="getDefaultURL();" id="max" class="choicebuttons">S</button>
+        <button onclick="getHQURL();" id="max" class="choicebuttons">M</button>
+        <button onclick="get43URL();" id="43" class="choicebuttons">L</button>
+        <p>Auto-Generated Video Images:</p>
+        <button onclick="get1URL();" id="1" class="choicebuttons">1</button>
+        <button onclick="get2URL();" id="2" class="choicebuttons">2</button>
+        <button onclick="get3URL();" id="3" class="choicebuttons">3</button>
+    </body>
+</html>

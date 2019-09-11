@@ -1,0 +1,27 @@
+* {
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.urlInput {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: red;
+    width: 40%;
+    text-align: center;
+    font-size: 15px;
+    outline-width: 0;
+}
+
+.choicebuttons {
+    border: 0;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+}
